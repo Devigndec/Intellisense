@@ -2,6 +2,13 @@ body {
     width: 100vw;
     height: 100vh;
     background: #5d3a3a;
+    margin:0;
+}
+.simplesquare{
+    width:500px;
+    height:500px;
+    margin:0;
+    background: #b5e0ba;
 }
 
 /* Colors Used: #5d3a3a #b5e0ba */
