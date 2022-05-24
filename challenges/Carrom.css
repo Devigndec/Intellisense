@@ -2,6 +2,37 @@ body {
     width: 100vw;
     height: 100vh;
     background-color: #62374e;
+   margin:0;
 }
+.carrom{
+    position: relative;
+   
+    height:500px;
+    padding:100px;
+}
+.box1,.box2,.box3,   .box4{
+    height:100px;
+    width:100px;
+    background-color: #fdc57b;
+
+}
+.box2{
+    position: absolute;
+    right:100px;
+    top:100px;
+ float: right;
+}
+.box3{
+    position: absolute;
+    bottom:0;
+      
+   }
+   .box4{
+    position: absolute;
+    bottom:0;
+    right:100px;
+    float: right;
+      
+   }
 
 /* Colors Used: #62374e #fdc57b */
